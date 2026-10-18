@@ -1,0 +1,50 @@
+{
+    "name":  "usb-history",
+    "logo":  "🔌",
+    "exe":  "UsbHistory.exe",
+    "desc":  "Free, open-source USB device history viewer for Windows — see every stick, phone and drive ever connected. 100 MB portable, offline, MIT.",
+    "topics":  [
+                   "usb-history",
+                   "usb-devices",
+                   "usbdeview-alternative",
+                   "device-history",
+                   "forensics",
+                   "sysadmin",
+                   "hardware",
+                   "windows",
+                   "windows-10",
+                   "windows-11",
+                   "csharp",
+                   "dotnet",
+                   "vid-pid",
+                   "device-manager",
+                   "audit",
+                   "portable",
+                   "open-source",
+                   "mit-license"
+               ],
+    "features":  [
+                     "✅ **Full connection history** — every USB device ever plugged in, with first and last seen timestamps",
+                     "✅ **Rich identity data** — vendor, product, VID/PID, serial and device class columns sortable and searchable",
+                     "✅ **Mount point mapping** — shows which drive letter a storage device took during use",
+                     "✅ **Connected-now view** — a live tab of currently attached devices with safe eject shortcuts",
+                     "✅ **Export for audits** — CSV with all fields for compliance checks and asset tracking",
+                     "✅ **No kernel driver** — reads standard device registry data; safe on locked-down workstations",
+                     "✅ **100 MB self-contained exe** — runtime bundled, portable, offline, MIT with SHA-256 releases"
+                 ],
+    "compare":  [
+                    "| Feature | **usb-history** | USBDeview | USBLogView | Device Manager |",
+                    "|---|:---:|:---:|:---:|:---:|",
+                    "| Price | **Free, MIT** | Free | Free | Built-in |",
+                    "| Open source | **Yes** | No | No | No |",
+                    "| First-seen and last-seen dates | **Yes** | Yes | Connect only | No |",
+                    "| Mount point history | **Yes** | Partial | No | Current only |",
+                    "| CSV audit export | **Yes** | Yes | No | No |",
+                    "| Portable, no install | **Yes, 100 MB** | Zip | Zip | With OS |"
+                ],
+    "faqQ":  "how to see USB devices connected to my computer history?",
+    "faqA":  "Windows forgets devices the moment they are unplugged unless you dig through registry keys nobody documents. usb-history reads that log and shows every device with identity data and first and last seen dates, exportable for audits. It is a 100 MB portable exe, MIT, offline, no admin driver required.",
+    "s1":  "Dark table (#121418, cyan #22D3EE): rows per device with vendor, VID/PID and Last seen columns, search field typed SanDisk, export button.",
+    "s2":  "Device drawer: serial number, device class, mount history E then F, connected-now badge, safe eject action link.",
+    "s3":  "Audit view: date range filter, CSV export preview with 87 rows, duplicate serial warning chip in amber."
+}
